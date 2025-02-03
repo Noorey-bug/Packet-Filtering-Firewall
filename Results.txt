@@ -1,0 +1,6 @@
+
+Packet: SRC 192.168.1.1; DST 203.0.113.5; PRO TCP; Decision: Allow; Rule Applied: 1
+Packet: SRC 10.0.0.1; DST 198.51.100.2; PRO TCP; Decision: Deny; Rule Applied: 2
+Packet: SRC 192.168.1.5; DST 203.0.113.5; PRO TCP; Decision: Allow; Rule Applied: 3
+Packet: SRC 198.51.100.1; DST 203.0.113.5; PRO ICMP; Decision: Deny; Rule Applied: 4
+Packet: SRC 192.168.1.10; DST 8.8.8.8; PRO UDP; Decision: Allow; Rule Applied: 5
